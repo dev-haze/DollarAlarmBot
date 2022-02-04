@@ -8,7 +8,7 @@ import telepot
 url = 'https://search.naver.com/search.naver?where=nexearch&sm=top_hty&fbm=1&ie=utf8&query=%ED%99%98%EC%9C%A8'
 
 #token = ""
-token = os.environ.get('token')
+token = '2133101939:AAHNkHF24eQbPnvTRKV26tQvkHs_Lk9DCWE'
 mc = "1924408195"
 bot = telepot.Bot(token)
 is_send = 0
