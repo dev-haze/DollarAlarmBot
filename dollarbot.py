@@ -12,7 +12,7 @@ token = '2133101939:AAHNkHF24eQbPnvTRKV26tQvkHs_Lk9DCWE'
 mc = "1924408195"
 bot = telepot.Bot(token)
 is_send = 0
-flag = 11600#1160
+flag = 1160#1160
 #구동부--------------------------------------
 
 
@@ -23,8 +23,6 @@ while 1:
     wd_txt = wd_site.text.replace(",","")
     wd_float = float(wd_txt)
     wd = int(wd_float) # 실제 원달러 환율 값
-        
-    bot.sendMessage(mc,'test')
         
 
     if(wd<flag and is_send==0):
